@@ -1,0 +1,453 @@
+{
+    "nav": [
+        {
+            "href": "#header",
+            "kara":"Home"
+        },
+        {
+            "href": "#about",
+            "kara":"Services"
+        },
+        {
+            "href": "#services",
+            "kara":"About us"
+        },
+        {
+            "href": "#contact",
+            "kara":"Contact us"
+        }
+    ],
+    "navara": [
+        {
+            "href": "#header",
+            "kara":"الرئيسية"
+        },
+        {
+            "href": "#experience",
+            "kara":"الخدمات"
+        },
+        {
+            "href": "#services",
+            "kara":"فريقنا"
+        },
+        {
+            "href": "#contact",
+            "kara":"إحجز الان"
+        }
+    ],
+    "header": [
+        {
+            "h1":"Need Washing !",
+            "p": "With excellent service, quick response, answer team and best prices,"
+        },
+        {
+            "h1": "Moving Faster",
+            "p": "we put our service at your disposal"
+        },
+        {
+            "p": "anytime and anywhere feel free to book !"
+        }
+
+    ],
+    "headerara": [
+        {
+            "h1":"! تريد غسل سيارتك ",
+            "p": "بأفضل خدمة, إستجابة سريعة, فريق للإجابة و أفضل الأسعار"
+        },
+        {
+            "h1": "سنأتي بسرعة",
+            "p": "نضع خدمتنا في متناولكم"
+        },
+        {
+            "p": "أي مكان و أي وقت لا تتردد في الحجز"
+        }
+    ],
+    "CTA":[
+        {
+            "a": "Let's Talk"
+        }
+    ],
+    "CTAara":[
+        {
+            "a": "إحجز الان"
+        }
+    ],
+    "about": [
+        {
+            "margindata": "right",
+            "srcdata": "/assets/service1.png",
+            "typedata": "POLISHING",
+            "wavedata": "/assets/wave1.png",
+            "PositionOfTextdata": "-41%",
+            "PositionOfWavedata": "-48%",
+            "WidthOfWavedata": ""
+        },
+        {
+            "margindata": "",
+            "srcdata": "/assets/service2.png",
+            "typedata": "WASHING",
+            "wavedata": "/assets/wave2.png",
+            "PositionOfTextdata": "-29%",
+            "PositionOfWavedata": "-39%",
+            "WidthOfWavedata": ""
+        },
+        {
+            "margindata": "right",
+            "srcdata": "/assets/service4.png",
+            "typedata": "TINTING",
+            "wavedata": "/assets/wave3.png",
+            "PositionOfTextdata": "-40%",
+            "PositionOfWavedata": "-49%",
+            "WidthOfWavedata": "12rem"
+        },
+        {
+            "margindata": "",
+            "srcdata": "/assets/service3.png",
+            "typedata": "SHAMPOOING",
+            "wavedata": "/assets/wave4.png",
+            "PositionOfTextdata": "-57%",
+            "PositionOfWavedata": "-53%",
+            "WidthOfWavedata": "13rem"
+        },
+        {
+            "margindata": "right",
+            "srcdata": "/assets/service5.png",
+            "typedata": "AIRING",
+            "wavedata": "/assets/wave5.png",
+            "PositionOfTextdata": "-36%",
+            "PositionOfWavedata": "-44%",
+            "WidthOfWavedata": "11rem"
+        }
+    ],
+    "aboutara": [
+        {
+            "typedata": "تلميع"
+        },
+        {
+            "typedata": "غسيل"
+        },
+        {
+            "typedata": "تظليل النوافذ"
+        },
+        {
+            "typedata": "تنظيف بالشامبو"
+        },
+        {
+            "typedata": "نفخ العجلات"
+        }
+    ],
+    "services": [
+        {
+            "h1": "Services :"
+        },
+        {
+            "service_description_data":[
+                [
+                    
+                    {
+                        "offer": "Exterior washing"
+                    },
+                    {
+                        "offer": "Interior cleaning"
+                    },
+                    {
+                        "offer": "Tyre's & rim's polishing"
+                    },
+                    {
+                        "offer": "Sanitizing + Perfuming + Drying"
+                    },
+                    {
+                        "offer": "Cleaning the A/C slots"
+                    },
+                    {
+                        "offer": "Interior polishing"
+                    }
+                ],
+                [
+                    {
+                        "offer": "Exterior washing"
+                    },
+                    {
+                        "offer": "Interior cleaning"
+                    },
+                    {
+                        "offer": "Tyre's & rim's polishing"
+                    },
+                    {
+                        "offer": "Sanitizing + Perfuming + Drying"
+                    },
+                    {
+                        "offer": "Cleaning the A/C slots"
+                    },
+                    {
+                        "offer": "Interior polishing + Tissue box"
+                    },
+                    {
+                        "offer": "Interior stain removal"
+                    },
+                    {
+                        "offer": "Quick waxing 7 day's shine"
+                    }
+                ],
+                [
+                    {
+                        "offer": "Exterior washing"
+                    },
+                    {
+                        "offer": "Interior cleaning"
+                    },
+                    {
+                        "offer": "Tyre's & rim's polishing"
+                    },
+                    {
+                        "offer": "Sanitizing + Perfuming + Drying"
+                    },
+                    {
+                        "offer": "Cleaning the A/C slots"
+                    },
+                    {
+                        "offer": "Interior polishing + Tissue box"
+                    },
+                    {
+                        "offer": "Interior stain removal"
+                    },
+                    {
+                        "offer": "Engine washing & polishing"
+                    },
+                    {
+                        "offer": "Internal plastic bagging"
+                    },
+                    {
+                        "offer": "Quick waxing 12 day's shine"
+                    }
+                ],
+                [
+                    {
+                        "offer": "Exterior washing"
+                    },
+                    {
+                        "offer": "Interior cleaning"
+                    },
+                    {
+                        "offer": "Tyre's & rim's polishing"
+                    },
+                    {
+                        "offer": "Sanitizing + Perfuming + Drying"
+                    },
+                    {
+                        "offer": "Cleaning the A/C slots"
+                    },
+                    {
+                        "offer": "Interior polishing + Tissue box"
+                    },
+                    {
+                        "offer": "Interior stain removal"
+                    },
+                    {
+                        "offer": "Engine washing & polishing"
+                    },
+                    {
+                        "offer": "Internal plastic bagging"
+                    },
+                    {
+                        "offer": "External plastic bagging cover"
+                    },
+                    {
+                        "offer": "headlights permanent restoration"
+                    },
+                    {
+                        "offer": "Inflate air in tyre's"
+                    },
+                    {
+                        "offer": "Quick waxing 30 day's shine"
+                    }
+                ]
+            ],
+            "packages": [
+                {
+                    "package": "standard"
+                },
+                {
+                    "package": "premium"
+                },
+                {
+                    "package": "gold"
+                },
+                {
+                    "package": "platinum"
+                }
+            ]
+        }
+    ],
+    "servicesara": [
+        {
+            "h1": ": خدماتنا"
+        },
+        {
+            "service_description_data":[
+                [
+                    
+                    {
+                        "offer": "غسيل خارجي + تنظيف داخلي"
+                    },
+                    {
+                        "offer": "تلميع الرنقات و الإطارات"
+                    },
+                    {
+                        "offer": "التعقيم + التعطير + التنشيف"
+                    },
+                    {
+                        "offer": "تنظيف فتحات المكيف"
+                    },
+                    {
+                        "offer": "تلميع الديكورات الداخلية"
+                    }
+                ],
+                [
+                    {
+                        "offer": "غسيل خارجي + تنظيف داخلي"
+                    },
+                    {
+                        "offer": "تلميع الرنقات و الإطارات"
+                    },
+                    {
+                        "offer": "التعقيم + التعطير + التنشيف"
+                    },
+                    {
+                        "offer": "تنظيف فتحات المكيف"
+                    },
+                    {
+                        "offer": "تلميع الديكورات الداخلية"
+                    },
+                    {
+                        "offer": "علبة مناديل + إزالة البقع الداخلية"
+                    },
+                    {
+                        "offer": "شمع سريع 7 أيام لمعه"
+                    }
+                ],
+                [
+                    {
+                        "offer": "غسيل خارجي + تنظيف داخلي"
+                    },
+                    {
+                        "offer": "تلميع الرنقات و الإطارات"
+                    },
+                    {
+                        "offer": "التعقيم + التعطير + التنشيف"
+                    },
+                    {
+                        "offer": "تنظيف فتحات المكيف"
+                    },
+                    {
+                        "offer": "تلميع الديكورات الداخلية"
+                    },
+                    {
+                        "offer": "علبة مناديل + إزالة البقع الداخلية"
+                    },
+                    {
+                        "offer": "غسيل و تلميع المحرك"
+                    },
+                    {
+                        "offer": "تكييس داخلي بلاستيكي"
+                    },
+                    {
+                        "offer": "شمع سريع 12 أيام لمعه"
+                    }
+                ],
+                [
+                    {
+                        "offer": "غسيل خارجي + تنظيف داخلي"
+                    },
+                    {
+                        "offer": "تلميع الرنقات و الإطارات"
+                    },
+                    {
+                        "offer": "التعقيم + التعطير + التنشيف"
+                    },
+                    {
+                        "offer": "تنظيف فتحات المكيف"
+                    },
+                    {
+                        "offer": "تلميع الديكورات الداخلية"
+                    },
+                    {
+                        "offer": "علبة مناديل + إزالة البقع الداخلية"
+                    },
+                    {
+                        "offer": "غسيل و تلميع المحرك"
+                    },
+                    {
+                        "offer": "تكييس داخلي بلاستيكي"
+                    },
+                    {
+                        "offer": "طربال خارجي بلاستيكي"
+                    },
+                    {
+                        "offer": "ترميم المصابيح الأمامية بشكل دائم"
+                    },
+                    {
+                        "offer": "نفخ الهواء في الإطارات"
+                    },
+                    {
+                        "offer": "شمع سريع 30 ايام لمعه"
+                    }
+                ]
+            ],
+            "packages": [
+                {
+                    "package": "الأساسية"
+                },
+                {
+                    "package": "المميزة"
+                },
+                {
+                    "package": "الذهبية"
+                },
+                {
+                    "package": "البلاتينية"
+                }
+            ]
+        }
+    ],
+    "aboutus": [
+        {
+            "h1": "About Us",
+            "p" : "Experienced integrated team",
+            "ptwo" : "Washing all kinds of cars",
+            "pthree": "within your reach !"
+        }
+    ],
+    "aboutusara": [
+        {
+            "h1": "من نحن",
+            "p" : "فريق متكامل ذو خبرة",
+            "ptwo" : "في غسيل كل أنواع السيارات",
+            "pthree": "! في متناولكم"
+        }
+    ],
+    "contact": [
+        {
+            "h1":"Contact Us",
+            "input_name": "your full name",
+            "input_email": "your email",
+            "input_message": "your message",
+            "button": "send message"
+        }
+    ],
+    "contactara": [
+        {
+            "h1":":  للتواصل",
+            "input_name": "إسمك الكامل",
+            "input_email": "بريدك الإلكتروني",
+            "input_message": "رسالتك",
+            "button": "إرسال"
+        }
+    ],
+    "lang_switch": [
+        {
+            "uae_img":"/assets/uae_flag.webp",
+            "eng_img":"/assets/eng_flag.png"
+        }
+    ]
+}

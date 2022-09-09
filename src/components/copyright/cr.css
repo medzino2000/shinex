@@ -1,0 +1,49 @@
+.cr {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--color-bg);
+    border-top: 1px solid #ff828d;
+    padding-inline: 40px;
+}
+.cr img {
+    width: 150px;
+}
+.crp {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-inline: 1rem;
+}
+.w3p_media {
+    display: flex;
+    flex-wrap: wrap;
+}
+.w3p_media a {
+    padding: 0.4rem;
+    border: 0.8px solid #ff828d;
+    border-radius: 3px;
+    color: white;
+    margin-right: 5px;
+    transition-duration: 0.5s;
+}
+.w3p_media a:hover {
+    background-color: white;
+    color: #ff828d;
+}
+.w3p_media a svg {
+    margin-right: 0px;
+}
+@media  screen and (max-width: 550px) {
+    .cr {
+        flex-direction: column;
+        height: auto;
+    }
+    .cr a,
+    .crp,
+    .w3p_media {
+        margin-block: 0.8rem;
+    }
+}

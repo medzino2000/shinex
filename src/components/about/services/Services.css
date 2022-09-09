@@ -1,0 +1,313 @@
+#services {
+    position: relative;
+    background-image: url("/static/media/bg.d241331b.png");
+    padding-block: 17vh 40vh;
+}
+#services .cta {
+    top: 56px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    margin-left: 76%;
+    position: relative;
+}
+#services section {
+    display: none;
+}
+.bg_two {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.aboutus_bub {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 109px;
+}
+#services h4 {
+    color: #ff495a;
+    font-size: 39px;
+    position: relative;
+    margin-bottom: 31px;
+    margin-left: 7%;
+}
+.waveTwo{
+    position: absolute;
+    right: 39px;
+    bottom: 138px;
+    width: 134px;
+    opacity: 0.7;
+}
+.waveThree{
+    position: absolute;
+    left: -50px;
+    width: 150px;
+    top: 27rem;
+    opacity: 0.7;
+}
+.bg {
+    position: absolute;
+    top: -69px;
+    left: 0;
+    
+    width: 100%;
+}
+.services {
+    display: flex;
+    position: relative;
+    width: clamp(80%,80%,80%);
+    z-index: 2;
+    background-color: #F03049;
+    margin: auto;
+    border-radius: 7px 144px;
+    overflow: hidden;
+}
+#last {
+    border-radius: 0% 60% / 0 0 0 128px;
+}
+#first {
+    border-radius: 7px 0 0 0;
+}
+.packages {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-end;
+    
+}
+.package {
+    width: 250px;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer; 
+    background: #FF7C88;
+}
+.package a {
+    color: var(--color-white);
+    font-size: 19px;
+    font-weight: 800;
+    letter-spacing: 1.1px;
+    margin-right: 9px;
+}
+.services_discreption {
+    height: 32rem;
+    width: 100%;
+    padding: 3.5rem 4rem 0 4rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    row-gap: 33px;
+    position: relative;
+}
+.services_discreption::after {
+    content: '';
+    position: absolute;
+    background-image: url(/assets/smallCarShadow.png);
+    width: 250px;
+    height: 103px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 314px;
+    right: 0;
+    z-index: 1;
+}
+.services_discreption::before {
+    content: '';
+    position: absolute;
+    background-image: url(/assets/bigCarShadow.png);
+    width: 358px;
+    height: 261px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 35px;
+    right: 21px;
+    z-index: 1;
+}
+.offers_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 13px 32px;
+    z-index: 2;
+}
+.offers_container p {
+    color: white;
+    line-height: 19px;
+    font-size: 15.5px;
+    grid-column-start: 1;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+.left_side {
+    grid-column-start: 2 !important; 
+    /* grid-row-start: 1 ; */
+}
+.one_offer img {
+    width: 14px;
+    margin: 0 6px 0 0px;
+}
+.offers_prices {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    z-index: 20;
+}
+.normal_price, 
+.hight_price {
+    margin-bottom: 35px;
+    background-color: white;
+    padding: 1.5rem 2.5rem;
+    border-radius: 0 34px;
+    border: 2px solid rgba(255, 80, 96, 0.28);
+    box-shadow: -4px 4px 5px rgb(0 0 0 / 25%);
+    position: relative;
+}
+.packages div:hover {
+    animation-name: aba;
+}
+.normal_price::after {
+    content: '';
+    position: absolute;
+    top: -47px;
+    background: url(/assets/bigCar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    transform: translateX(-25%);
+}
+.hight_price::after {
+    content: '';
+    position: absolute;
+    top: -43px;
+    background: url(/assets/smallCar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    transform: translateX(-25%);
+}
+.normal_price p,
+.hight_price p {
+    font-weight: 700;
+    color: #FF0021;
+    font-size: 27px;
+}
+@media screen and (max-width: 1114px){
+    section {
+        padding-inline: 0;
+    }
+}
+@media screen and (max-width: 1024px){
+    .packages{
+        width: 173px;
+    }
+    .packages a {
+        font-size: 20px;
+    }
+    .package a span {
+        display: none;
+    }
+    .offers_container {
+        grid-gap: 11px 8px;
+    }
+    .services_discreption {
+        padding: 3.5rem 1.5rem 0 3rem;
+    }
+    .one_offer img {
+        width: 11px;
+    }
+    .normal_price,
+    .hight_price {
+        padding: 1.2rem 2rem;
+        border-radius: 0 28px;
+    }
+    .normal_price p,
+    .hight_price p {
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 870px){
+    .services{
+        flex-direction: column;
+        border-radius: 7px 100px;
+    }
+    .bg_two {
+        width: auto;
+    }
+    .packages {
+        flex-direction: row;
+        width: auto;
+    }
+    .package {
+        justify-content: center;
+    }
+    .package a {
+        align-items: center;
+        margin-right: 0; 
+        font-size: 17px;
+    }
+    .left_side {
+        grid-column-start: 1 !important;
+    }
+    .offers_container {
+        grid-template-columns: auto;
+    }
+    .offers_container p {
+        font-size: 19.5px;
+    }
+    .services_discreption {
+        height: auto;
+    }
+    .offers_prices {
+        margin-top: 32px;
+    }
+    .waveThree {
+        left: 50%;
+        top: 35px;
+        width: 94px;
+        opacity: 0.9;
+    }
+    a span {
+        display: block !important;
+    }
+    .aboutus_bub {
+        bottom: 38px;
+        width: 77px;
+    }
+}
+@media screen and (max-width: 550px){
+    .offers_container p {
+        font-size: 17.5px;
+        font-weight: 400;
+    }
+    .services {
+        border-radius: 7px 66px;
+    }
+    .services_discreption {
+        padding: 2.5rem 2rem 0 2rem;
+    }
+    .one_offer img {
+        width: 14px;
+    }
+    .packages a {
+        font-weight: 500;
+        letter-spacing: 0.2px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .services {
+        width: 95%;
+    }
+    .bg_two {
+        width: 171%;
+    }
+    #services .cta {
+        margin-left: 60%;
+    }
+}

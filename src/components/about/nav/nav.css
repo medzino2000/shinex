@@ -1,0 +1,25 @@
+nav {
+    width: max-content;
+    padding: 0.7rem 0;
+    margin-inline: 600px 0px;
+    display: flex;
+}
+nav a {
+    padding: 0.9rem;
+    color: var(--color-white);
+    display: flex;
+    position: relative;
+}
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    height: 3px;
+    width: 0;
+    background-color: white;
+    transition-duration: 0.4s;
+}
+nav a:hover::after{
+    width: 100%;
+}

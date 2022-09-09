@@ -1,0 +1,60 @@
+
+#lang_switcher_container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  left: 78px;
+  top: 20px;
+}
+
+.first_lang {
+  z-index: 999;
+  width: 27px;
+  height: 27px;
+  margin-right: 8px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-image: url(/assets/eng_flag.png);
+  background-size: cover;
+  background-position: center;
+}
+.second_lang {
+  z-index: 999;
+  width: 27px;
+  height: 27px;
+  margin-right: 8px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-image: url(/assets/uae_flag.webp);
+  background-size: cover;
+  background-position: left;
+}
+
+#lang_switcher_container p {
+  z-index: 999;
+  color: white;
+}
+@media screen and (max-width: 800px){
+  #lang_switcher_container p {
+      font-size: 11px;
+  }
+  #lang_switcher_container {
+    right: 4%;
+    top: 110px;
+    z-index: 100000000;
+    position: absolute;
+    left: auto;
+    margin-right: 12px;
+  }
+  .second_lang,
+  .first_lang {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 550px){
+  #lang_switcher_container {
+    right: 0;
+  }
+}

@@ -1,0 +1,232 @@
+header {
+    /* height: 158vh; */
+    background-color: var(--color-bg);
+    overflow-x: clip;
+    position: relative;
+}
+.header_content {
+    width: 95%;
+    margin-top: 14vh;
+    height: max-content;
+    position: relative;
+    display: flex;
+    overflow-y: initial;
+}
+.header_imgs_container {
+    height: 70vh;
+    width: 90vh;
+}
+.header_img {
+    position: absolute;
+    z-index: 2;
+    height: 80vh;
+    bottom: 17px;
+
+}
+a svg {
+    /* display: none; */
+    margin-right: 8px;
+}
+
+.header_img_cover {
+    left: 21px;
+    position: absolute;
+    height: 80vh;
+    bottom: 28px;
+}
+.bubble_one {
+    height: 100vh;
+    position: absolute;
+    z-index: 3;
+    bottom: -63vh;
+    left: 0px;
+}
+.bubble_two {
+    position: absolute;
+    height: 42vh;
+    z-index: 3;
+    top: -23vh;
+}
+.bubble_three {
+    position: absolute;
+    right: 0;
+    height: 33vh;
+}
+.h_container {
+    margin-left: 2vw;
+    
+}
+.h_container h1 {
+    font-size: 61px;
+    text-align: end;
+    color: var(--color-white);
+}
+.h_container p {
+    line-height: 28px;
+    text-align: end;
+    margin-block: 5vh 10vh;
+    font-size: 19px;
+    color: var(--color-white);
+}
+.h_container a {
+    color: var(--color-bg);
+    background-color: var(--color-white);
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    margin: 0 0 0 29vw;
+}
+.h_container img {
+    position: absolute;
+    width: 99px;
+    height: 15px;
+    left: 54%;
+    bottom: 150px;
+}
+.circl_one {
+    position: absolute;
+    z-index: 9999;
+    position: absolute;
+    top: -106px;
+    left: 489px;
+    width: 150px;
+}
+.circl_two {
+    position: absolute;
+    bottom: -74px;
+    right: -71px;
+    width: 165px;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 1024px){
+    .header_img {
+        height: 60vh;
+    }
+    .header_img_cover {
+        height: 60vh;
+    }
+    .bubble_three {
+        height: 17vh;
+    }
+    .bubble_one {
+        height: 73vh;
+        bottom: -45vh;
+    }
+    .bubble_two {
+        height: 22vh;
+        top: -4vh;
+    }
+    .h_container h1 {
+    font-size: 42px;
+    }
+    .h_container p {
+        line-height: 19px;
+        font-size: 17px;
+    }
+    .h_container a {
+    margin: 0 0 0 21vw;
+    font-size: 14px;
+    }
+    nav {
+        margin-inline: 284px 0px;
+    }
+    .header_content {
+        margin-top: 7vh;
+    }
+    .circl_one {
+        top: -24px;
+        left: 327px;
+        width: 122px;
+    }
+    .circl_two {
+        bottom: auto;
+        right: -96px;
+        width: 130px;
+        opacity: 0.5;
+    }
+}
+@media screen and (max-width: 800px){
+    .header_img {
+    top: 47vh;
+    }
+    .header_img_cover {
+    bottom: -35vh;
+    }
+    .bubble_one {
+        bottom: -85vh;
+    }
+    .bubble_two {
+    top: 40vh;
+    }
+    .header_imgs_container {
+        width: 0;
+    }
+    .header_imgs_container > * {
+        transform: translateY(10vh);
+    }
+    .h_container {
+        margin-inline: auto;
+        margin: auto;
+        margin-top: 25px;
+        position: relative;
+
+    }
+    .h_container h1 {
+        text-align: center;
+    }
+    .h_container p {
+    text-align: center;
+    margin-block: 4vh 6vh;
+    }
+    .h_container a {
+    position: absolute;
+    left: 50%;
+    margin-inline: auto;
+    transform: translateX(-50%);
+    }
+    nav {
+        margin-inline: auto;
+    }
+    .circl_one {
+        top: 390px;
+        left: 401px;
+        width: 104px;
+    }
+    .h_container img {
+        position: absolute;
+        width: 99px;
+        height: 15px;
+        left: 88%;
+        bottom: auto;
+    }
+    .header_content {
+        width: auto;
+    }
+}
+@media screen and (max-width: 450px){
+    .h_container h1 {
+        font-size: 32px;
+    }
+    .h_container p {
+        font-size: 14px;
+    }
+    .header_img {
+        height: 44vh;
+    }
+    .header_img_cover {
+        bottom: -21vh;
+        height: 46vh;
+    }
+    .bubble_one {
+        bottom: -59vh;
+        height: 58vh;
+    }
+    nav a {
+        padding: 0.5rem;
+    }
+}
+
+
+
+
+
